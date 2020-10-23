@@ -261,6 +261,8 @@ text-decoration:none
 		padding-bottom:40pt;
 	z-index:1;
 	text-align:left;
+	line-height: 18pt;
+
 
 
 }
@@ -373,6 +375,7 @@ text-decoration:none
 	.description {
   	justify-content:flex-end;
 	font-size:12pt;
+	line-height: 15pt;
 	padding-right:15px;
 	padding-left:20px;
 }

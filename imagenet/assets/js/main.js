@@ -1,17 +1,18 @@
 $(document).ready(function(){
-	
 
 
 	$('.colorbtn-home').click(function(){
+		window.scrollTo(0,0);
 		$('.description').removeClass('hide')
 		$('.item').removeClass('hide');
 		$('.leftbox').removeClass('red yellow green clear normal ivory pink');
 		$('.leftbox').adClass('normal');
-		$('.about').addClass('hide')
+		$('.about').addClass('hide');
 
-	}); 
+}); 
 
 	$('.colorbtn.clear').click(function(){
+		window.scrollTo(0,0);
 		$('.item').addClass('hide');
 		$('.item.clear').removeClass('hide');
 		$('.description').addClass('hide');
@@ -23,6 +24,7 @@ $(document).ready(function(){
 	});
 
 	$('.colorbtn.red').click(function(){
+		window.scrollTo(0,0);
 		$('.item').addClass('hide');
 		$('.item.red').removeClass('hide');
 		$('.description').addClass('hide');
@@ -33,6 +35,7 @@ $(document).ready(function(){
 	});
 
 	$('.colorbtn.yellow').click(function(){
+		window.scrollTo(0,0);
 		$('.item').addClass('hide');
 		$('.item.yellow').removeClass('hide');
 		$('.description').addClass('hide');
@@ -43,6 +46,7 @@ $(document).ready(function(){
 	});
 
 	$('.colorbtn.green').click(function(){
+		window.scrollTo(0,0);
 		$('.item').addClass('hide');
 		$('.item.green').removeClass('hide');
 		$('.description').addClass('hide');
@@ -53,6 +57,7 @@ $(document).ready(function(){
 	});
 
 	$('.colorbtn.ivory').click(function(){
+		window.scrollTo(0,0);
 		$('.item').addClass('hide');
 		$('.item.ivory').removeClass('hide');
 		$('.description').addClass('hide');
@@ -63,6 +68,7 @@ $(document).ready(function(){
 	});
 
 	$('.colorbtn.pink').click(function(){
+		window.scrollTo(0,0);
 		$('.item').addClass('hide');
 		$('.item.pink').removeClass('hide');
 		$('.description').addClass('hide');
@@ -73,6 +79,7 @@ $(document).ready(function(){
 	});
 
 	$('.colorbtn.ivory').click(function(){
+		window.scrollTo(0,0);
 		$('.item').addClass('hide');
 		$('.item.ivory').removeClass('hide');
 		$('.description').addClass('hide');
@@ -83,6 +90,7 @@ $(document).ready(function(){
 
 	});
 	$('.colorbtn-about').click(function(){
+		window.scrollTo(0,60);
 		$('.item').addClass('hide');
 		$('.description').addClass('hide');
 		$('.leftbox').removeClass('red yellow green clear normal ivory pink');
