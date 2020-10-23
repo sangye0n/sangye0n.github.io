@@ -258,6 +258,8 @@ transform: perspective(525px) translateZ(100px)
 	margin-left:-68px;
 	margin-bottom:-50px;
 
+	overflow-x:hidden; 
+	overflow-y:hidden;
 	}
 	.background{
 	display:none;
