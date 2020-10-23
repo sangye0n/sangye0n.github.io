@@ -383,7 +383,8 @@ text-decoration:none
 	color:#002456;
 	margin:auto;
 	padding-left:120px;
-	margin-right:60px;
+	padding-right:100px;
+	float:right;
 
 	}
 	.footer{
