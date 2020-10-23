@@ -2,15 +2,19 @@ $(document).ready(function(){
 $('.about').addClass('hide');
 
 
-	$('.colorbtn-home').click(function(){
+	$('.colorbtn.b.home').click(function(){
 		window.scrollTo(0,0);
-		$('.description').removeClass('hide')
 		$('.item').removeClass('hide');
+
+		$('.description').removeClass('hide');
 		$('.leftbox').removeClass('red yellow green clear normal ivory pink');
-		$('.leftbox').adClass('normal');
+		$('.leftbox').addClass('normal');
+		$('.about').removeClass('appear');
 		$('.about').addClass('hide')
 
-}); 
+
+
+	}); 
 
 	$('.colorbtn.clear').click(function(){
 		window.scrollTo(0,0);
@@ -19,7 +23,8 @@ $('.about').addClass('hide');
 		$('.description').addClass('hide');
 		$('.leftbox').removeClass('red yellow green clear normal ivory pink');
 		$('.leftbox').addClass('clear');
-		$('.about').addClass('hide')
+		$('.about').removeClass('appear');
+		$('.about').addClass('hide')	
 
 
 	});
@@ -31,7 +36,8 @@ $('.about').addClass('hide');
 		$('.description').addClass('hide');
 		$('.leftbox').removeClass('red yellow green clear normal ivory pink');
 		$('.leftbox').addClass('red');
-		$('.about').addClass('hide')
+		$('.about').removeClass('appear');
+		$('.about').addClass('hide')	
 
 	});
 
@@ -42,7 +48,8 @@ $('.about').addClass('hide');
 		$('.description').addClass('hide');
 		$('.leftbox').removeClass('red yellow green clear normal ivory pink');
 		$('.leftbox').addClass('yellow');
-		$('.about').addClass('hide')
+		$('.about').removeClass('appear');
+		$('.about').addClass('hide')	
 
 	});
 
@@ -53,7 +60,8 @@ $('.about').addClass('hide');
 		$('.description').addClass('hide');
 		$('.leftbox').removeClass('red yellow green clear normal ivory pink');
 		$('.leftbox').addClass('green');
-		$('.about').addClass('hide')
+		$('.about').removeClass('appear');
+		$('.about').addClass('hide')	
 
 	});
 
@@ -64,7 +72,8 @@ $('.about').addClass('hide');
 		$('.description').addClass('hide');
 		$('.leftbox').removeClass('red yellow green clear normal ivory pink');
 		$('.leftbox').addClass('ivory');
-		$('.about').addClass('hide')
+		$('.about').removeClass('appear');
+		$('.about').addClass('hide')	
 
 	});
 
@@ -75,7 +84,8 @@ $('.about').addClass('hide');
 		$('.description').addClass('hide');
 		$('.leftbox').removeClass('red yellow green clear normal ivory pink');
 		$('.leftbox').addClass('pink');
-		$('.about').addClass('hide')
+		$('.about').removeClass('appear');
+		$('.about').addClass('hide')	
 
 	});
 
@@ -86,11 +96,12 @@ $('.about').addClass('hide');
 		$('.description').addClass('hide');
 		$('.leftbox').removeClass('red yellow green clear normal ivory pink');
 		$('.leftbox').addClass('ivory');
-		$('.about').addClass('hide')
+		$('.about').removeClass('appear');
+		$('.about').addClass('hide')	
 
 
 	});
-	$('.colorbtn-about').click(function(){
+	$('.colorbtn.b.abt').click(function(){
 		window.scrollTo(0,0);
 		$('.item').addClass('hide');
 		$('.description').addClass('hide');

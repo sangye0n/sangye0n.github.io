@@ -136,8 +136,9 @@ title2 {
   	margin-top:15vh;
  	bottom:0px;
 	position:fixed;
-	margin-bottom:110px;
+	margin-bottom:120px;
 	opacity:70%;
+	z-index:10;
 }
 .btn.project.a {
   	padding-left:36px;
@@ -178,14 +179,8 @@ text-decoration:none
 	z-index:1000;
 
 }
-.colorbtn-home{
+.colorbtn.b{
 	font-weight:normal;
-	line-height:30pt;
-
-}
-.colorbtn-about{
-	font-weight:normal;
-	line-height:30pt;
 
 }
 .colorbtn:hover {
@@ -194,7 +189,7 @@ text-decoration:none
 	font-weight: normal;
  	cursor: pointer;
  }
-.colorbtn-home:hover {
+.colorbtn.b:hover {
 
  	color: white;
 	text-decoration: underline;
@@ -202,13 +197,6 @@ text-decoration:none
 
  	cursor: pointer;
  }
- .colorbtn-about:hover{
- 	color: white;
-	text-decoration: underline;
-	font-weight: normal;
-
- 	cursor: pointer;
-}
  .item.hide{
   display: none;
 }
