@@ -339,7 +339,7 @@ text-decoration:none
 	z-index:0;
 }
 
-@media(max-width: 600px){
+@media(max-width: 550px){
 	.item{
 
 	}
