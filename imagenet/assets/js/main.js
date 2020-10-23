@@ -1,4 +1,5 @@
 $(document).ready(function(){
+$('.about').addClass('hide');
 
 
 	$('.colorbtn-home').click(function(){
@@ -90,7 +91,7 @@ $(document).ready(function(){
 
 	});
 	$('.colorbtn-about').click(function(){
-		window.scrollTo(0,60);
+		window.scrollTo(0,0);
 		$('.item').addClass('hide');
 		$('.description').addClass('hide');
 		$('.leftbox').removeClass('red yellow green clear normal ivory pink');
