@@ -277,7 +277,6 @@ transform: perspective(525px) translateZ(100px)
 	top:0px;
 	margin-top:610px;
 	flex-wrap:wrap;
-	overflow: hidden;
 	display:flex;
 	flex-wrap:wrap;
 	justify-content:space-around;
@@ -289,6 +288,7 @@ transform: perspective(525px) translateZ(100px)
 	padding-left:80px;
 	padding-right:20px;
 	float:left;
+	overflow-x:hidden; overflow-y:auto;
 
 	}
 	.footer{
