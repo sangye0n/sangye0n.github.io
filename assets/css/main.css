@@ -248,8 +248,6 @@ transform: perspective(525px) translateZ(100px)
   	padding-left:23px;
   }
   	li{
-	overflow-x:hidden; 
-	overflow-y:auto;
 	position:absolute;
 	top:360px;
   	}
