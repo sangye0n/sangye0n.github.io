@@ -377,14 +377,23 @@ text-decoration:none
 	padding-left:20px;
 }
 	.about{
+
+	position:relative;
+	top:0px;
+	flex-wrap:wrap;
+	overflow: hidden;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	align-items:flex-start;
+	padding-top: 0pt;
 	font-size:10pt;
 	line-height:13pt;
 	text-align:left;
 	color:#002456;
-	margin:auto;
-	padding-left:120px;
-	padding-right:100px;
-	float:right;
+	padding-left:10px;
+	padding-right:20px;
+	float:left;
 
 	}
 	.footer{
