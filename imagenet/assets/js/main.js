@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+$('.about').addClass('hide')
 
 	$('.colorbtn.b.home').click(function(){
 		window.scrollTo(0,0);
