@@ -272,7 +272,7 @@ transform: perspective(525px) translateZ(100px)
 	.container {
 	left:0px;
 	padding-left:55px;
-	overflow-x:hidden; 
+
 	overflow-y:auto;
 	}
 
