@@ -7,6 +7,8 @@ body {
   background-color:#edcf2e;
   position:relative;
   padding-top: 5%;
+	overflow-x:hidden; 
+	overflow-y:hidden;
 }
 
 a {
@@ -170,7 +172,7 @@ li {
     display:block;
     margin-bottom: 50px;
   	z-index:-100;
-  	overflow-x:hidden; overflow-y:auto;
+
 
 }
 
@@ -251,8 +253,6 @@ transform: perspective(525px) translateZ(100px)
   	li{
 	position:absolute;
 	top:360px;
-	overflow-x:hidden; 
-	overflow-y:auto;
   	}
 	.hi{
 	margin-left:-68px;
