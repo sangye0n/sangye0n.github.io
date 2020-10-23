@@ -8,7 +8,7 @@ $('.about').addClass('hide');
 		$('.item').removeClass('hide');
 		$('.leftbox').removeClass('red yellow green clear normal ivory pink');
 		$('.leftbox').adClass('normal');
-		$('.about').addClass('hide')
+		$('.about').addClass('hide');
 
 }); 
 
