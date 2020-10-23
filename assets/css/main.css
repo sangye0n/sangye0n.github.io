@@ -7,7 +7,7 @@ body {
   background-color:#edcf2e;
   position:relative;
   padding-top: 5%;
-	overflow-x:hidden; 
+
 	overflow-y:hidden;
 }
 
@@ -257,8 +257,6 @@ transform: perspective(525px) translateZ(100px)
 	.hi{
 	margin-left:-68px;
 	margin-bottom:-50px;
-
-	overflow-x:hidden; 
 	overflow-y:hidden;
 	}
 	.background{
