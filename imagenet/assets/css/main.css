@@ -378,8 +378,11 @@ text-decoration:none
 }
 	.about{
 	font-size:12pt;
-	padding-left:0px;
-	padding-right:5px;
+	line-height:15pt;
+	text-align:left;
+	color:#002456;
+	margin-left:0px;
+	margin-right:0px;
 	}
 	.footer{
 	padding-left:75px;
