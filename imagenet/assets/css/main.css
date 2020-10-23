@@ -95,16 +95,6 @@ title2 {
 
 }
 
-.nav{
-	width:130px;
-	height:300vh;
-	top: -100vh; 
-    left: 0px;
-	padding-left:20px;
-    position:fixed;
-	justify-content: space-around;
-    z-index:100;
-}
 
 .btn{
 	margin:0px;
@@ -178,14 +168,9 @@ text-decoration:none
 	z-index:1000;
 
 }
-.colorbtn-home{
+.colorbtn.b{
 	font-weight:normal;
-	line-height:30pt;
 
-}
-.colorbtn-about{
-	font-weight:normal;
-	line-height:30pt;
 
 }
 .colorbtn:hover {
@@ -194,7 +179,7 @@ text-decoration:none
 	font-weight: normal;
  	cursor: pointer;
  }
-.colorbtn-home:hover {
+.colorbtn.b:hover {
 
  	color: white;
 	text-decoration: underline;
@@ -202,13 +187,6 @@ text-decoration:none
 
  	cursor: pointer;
  }
- .colorbtn-about:hover{
- 	color: white;
-	text-decoration: underline;
-	font-weight: normal;
-
- 	cursor: pointer;
-}
  .item.hide{
   display: none;
 }
@@ -356,7 +334,7 @@ text-decoration:none
 	}
 	.title{
 	font-size:20pt;
-	transition:1s;
+
 	margin-left:10px;
 }
 	.colorbtn{
@@ -405,7 +383,7 @@ text-decoration:none
 }
 	.btn.project{
 	display:none;
-	transition:1s;
+
 }
 
 }

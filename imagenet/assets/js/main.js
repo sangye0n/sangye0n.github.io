@@ -1,13 +1,13 @@
 $(document).ready(function(){
 
 
-	$('.colorbtn-home').click(function(){
+	$('.colorbtn.b.home').click(function(){
 		window.scrollTo(0,0);
-		$('.description').removeClass('hide')
 		$('.item').removeClass('hide');
+		$('.description').removeClass('hide');
 		$('.leftbox').removeClass('red yellow green clear normal ivory pink');
-		$('.leftbox').adClass('normal');
-		$('.about').addClass('hide');
+		$('.leftbox').addClass('normal');
+		$('.about').addClass('hide')
 
 }); 
 
@@ -89,7 +89,7 @@ $(document).ready(function(){
 
 
 	});
-	$('.colorbtn-about').click(function(){
+	$('.colorbtn.b.abt').click(function(){
 		window.scrollTo(0,60);
 		$('.item').addClass('hide');
 		$('.description').addClass('hide');
