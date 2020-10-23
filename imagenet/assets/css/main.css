@@ -368,24 +368,27 @@ text-decoration:none
 	}
 	.container {
 	left:0px;
-	padding-left:85px;
+	padding-left:55px;
 	}
 	.description {
   	justify-content:flex-end;
 	font-size:12pt;
-	padding-right:10px;
-	padding-left:5px;
+	padding-right:15px;
+	padding-left:20px;
 }
 	.about{
-	font-size:12pt;
-	line-height:15pt;
+	font-size:10pt;
+	line-height:13pt;
 	text-align:left;
 	color:#002456;
-	margin-left:60px;
-	margin-right:10px;
+	margin:auto;
+	padding-left:120px;
+	margin-right:60px;
+
 	}
 	.footer{
 	padding-left:75px;
+	font-size:8pt;
 }
 	.btn.project{
 	display:none;
