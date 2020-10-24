@@ -211,7 +211,7 @@ text-decoration:none
 	writing-mode: vertical-rl;
 	top:0px;
 	padding-left:5px;
-	left:0;
+	left:0pt;
 	position:fixed;
 	padding-top:20px;
 	padding-bottom:20px;
@@ -420,6 +420,8 @@ text-decoration:none
 	font-size:20pt;
 	line-height:20pt;
 	margin-left:10px;
+	padding-left:0px;
+	left:0;
 }
 	.item {
 	padding-left:65px;
@@ -486,9 +488,7 @@ text-decoration:none
 
 @media(max-height: 600px){
 	.color{
-
 	margin-top:10px;
-
 	line-height:16pt;
 	}
 	.dpub {
@@ -504,8 +504,10 @@ text-decoration:none
 		line-height:16pt;
 		position:absolute
 		top:20px;	
-		margin-left:75px;
+		margin-left:65px;
 		opacity:50%;
+	left:none;
+
 
 	}
 	.dpub.home {
@@ -522,20 +524,21 @@ text-decoration:none
 
 @media(max-width: 550px) and (max-height: 600px){
 
-		.title {
-		font-size:18pt;
-		text-align:right;
-		letter-spacing:-1pt;
-		line-height:16pt;
-		position:fixed
-		bottom:0;
-		margin-left:12px;
+	.title {
+	font-size:18pt;
+	text-align:right;
+	letter-spacing:-1pt;
+	line-height:16pt;
+	position:fixed
+	bottom:0;
+	left:none;
+	margin-left:12px;
 
-	left: 0px;
+
+
  	bottom:0px;
 	position:fixed;
 	margin-bottom:28px;
-
 
 	}
 	.dpub.home {
