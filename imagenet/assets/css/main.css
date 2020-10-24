@@ -129,8 +129,11 @@ title2 {
   	position:fixed;
   	left:0px;
   	bottom:0px;
-  	padding-bottom:120px;
-  	padding-left:10px;
+  	display:block;
+  	text-align:right;
+  	padding-bottom:130px;
+  	margin-left:11px;
+  	line-height:26px;
 }
 
 .btn a {
