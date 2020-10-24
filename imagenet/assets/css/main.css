@@ -85,12 +85,13 @@ title2 {
 
 
 }
-.dpub a:hover {
-	cursor: pointer;
-	font-weight:normal;
-	color:#edcf2e;
-	text-decoration: underline;
+
+.dpub.home {
+	display:none;
+
 }
+
+
 
 .dpub a {
 	color:#002456;
@@ -98,7 +99,19 @@ title2 {
 	display:block;
 
 }
+.dpub a:hover {
+ 	color:white;
+	text-decoration: underline;
+	font-weight: normal;
+ 	cursor: pointer;
+ }
 
+ .dpub.home:hover {
+ 	color:white;
+	text-decoration: underline;
+	font-weight: normal;
+ 	cursor: pointer;
+ }
 
 .btn{
 	margin:0px;
@@ -145,7 +158,7 @@ title2 {
 text-decoration:none
 }
 .color {
-    position:fixed;
+
 	justify-content: space-around;
     z-index:100;
 	writing-mode: horizontal-tb;
@@ -192,8 +205,9 @@ text-decoration:none
 }
 
 .title {
-	font-size:28pt;
-	writing-mode: vertical-lr;
+	font-size:25pt;
+	line-height:28pt;
+	writing-mode: vertical-rl;
 	top:0px;
 	left:0px;
 	position:fixed;
@@ -398,7 +412,7 @@ text-decoration:none
 	}
 	.title{
 	font-size:20pt;
-
+	line-height:20pt;
 	margin-left:10px;
 }
 	.item {
@@ -464,6 +478,52 @@ text-decoration:none
 	}
 }
 
+@media(max-height: 600px){
+	.color{
 
+	margin-top:10px;
+
+
+	}
+	.dpub {
+		display:none;
+	}
+	.btn.project{
+		display:none;
+
+	}
+	.title {
+		font-size:18pt;
+		letter-spacing:-1pt;
+		line-height:16pt;
+		position:absolute
+		top:20px;	
+		margin-left:75px;
+		opacity:50%;
+
+	}
+	.dpub.home {
+		position:fixed;
+		display:block;
+		margin-bottom:0;
+  		padding-left:17px;
+  		padding-bottom:15px;
+  		text-decoration :none;
+  	}
+
+}
+
+
+@media(max-width: 550px) and (max-height: 600px){
+
+		.title {
+		display:none;
+
+	}
+	.dpub.home {
+		font-size:12pt;
+  		padding-left:25px;
+
+  	}
 
 }
