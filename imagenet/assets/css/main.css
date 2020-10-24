@@ -122,23 +122,16 @@ title2 {
 
 }
 .btn.project{
-	font-weight:normal;
-  	margin-top:15vh;
- 	bottom:0px;
-	position:fixed;
-	margin-bottom:130px;
-	opacity:70%;
-}
-.btn.project.a {
-  	padding-left:36px;
-}
-.btn.project.b {
-  	padding-left:23px;
-}
-.btn.project.c {
+  	font-weight:normal;
+
+  	opacity:20%;
+  	color:black;
+  	position:fixed;
+  	left:0px;
+  	bottom:0px;
+  	padding-bottom:120px;
   	padding-left:10px;
 }
-
 
 .btn a {
 	color:black;
