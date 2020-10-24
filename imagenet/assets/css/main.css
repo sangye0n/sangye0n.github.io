@@ -16,12 +16,12 @@ a {
 
 title1 {
 	font-size:20pt;
-	line-height:26pt;
+	line-height:28pt;
 	font-weight:bolder;
 }
 title2 {
 	font-size:16pt;
-	line-height:20pt;
+	line-height:24pt;
 	font-weight:bold;
 }
 .leftbox{
@@ -42,7 +42,7 @@ title2 {
 .leftbox.green{
 	opacity:100%;
 
-	background-color:#77dd77;
+	background-color:#9FFF7F;
 }
 .leftbox.ivory{
 	opacity:100%;
@@ -314,7 +314,7 @@ text-decoration:none
 	text-align:justify;
 	color:#002456;
 	margin-left:20px;
-	margin-right:12px;
+	margin-right:0px;
 	
 	display:none;
 }
@@ -366,7 +366,7 @@ text-decoration:none
 
 }
 .linkbtn.green{
-	background-color: #77dd77;
+	background-color: #9FFF7F;
 
 }
 .linkbtn.ivory{
