@@ -115,7 +115,6 @@ a {
 .btn.instagram{
   	padding-left:36px;
     z-index: 1000
-
 }
 
 .btn.project{
@@ -145,7 +144,7 @@ text-decoration:none
 	top:0px;
 	left:0px;
 	margin-top:12vh;
-	margin-left:100px;
+	margin-left:8vh;
 
 	color:#fdd03b;
 	z-index:1;
