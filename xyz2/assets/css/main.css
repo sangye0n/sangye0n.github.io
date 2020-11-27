@@ -142,9 +142,9 @@ text-decoration:none
 .text {
 	font-size:8vh;
 	position:fixed;
-	top:0px;
+	bottom:0px;
 	left:0px;
-	margin-top:5vh;
+	margin-bottom:5vh;
 	margin-left:0px;
 
 	color:#fdd03b;
@@ -152,7 +152,7 @@ text-decoration:none
 	font-weight:bolder;
 
   	text-align: left;
-
+  	opacity:90;
 
 	padding:0;
 	text-transform:capitalize;
